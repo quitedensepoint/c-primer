@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.8)
+project(c__primer)
+
+set(CMAKE_CXX_STANDARD 11)
+
+set(SOURCE_FILES 1.1.1/main.cpp)
+set(SOURCE_FILES 1.2/main.cpp)
+set(SOURCE_FILES 1.3/main.cpp)
+set(SOURCE_FILES 1.4/main.cpp)
+set(SOURCE_FILES 1.5/main.cpp)
+set(SOURCE_FILES 1.6/main.cpp)
+set(SOURCE_FILES 1.7/main.cpp)
+set(SOURCE_FILES 1.8/main.cpp)
+set(SOURCE_FILES 1.9/main.cpp)
+set(SOURCE_FILES 1.10/main.cpp)
+set(SOURCE_FILES 1.11/main.cpp)
+add_executable(c__primer ${SOURCE_FILES})
